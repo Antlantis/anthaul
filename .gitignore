@@ -1,0 +1,27 @@
+# build & binary artifacts — never version these
+build/
+target/
+cmake-build*/
+node_modules/
+DerivedData/
+fuzz/target/
+*.ipa
+*.xcarchive
+*.xcframework
+*.dSYM
+*.deb
+*.rpm
+*.zip
+*.o
+*.a
+*.so
+*.rlib
+*.bin
+# local state
+.env
+.env.local
+*.log
+.DS_Store
+__pycache__/
+.venv/
+venv/
